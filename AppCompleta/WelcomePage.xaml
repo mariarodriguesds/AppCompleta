@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCompleta.WelcomePage"
+             Title="Bem-vindo"
+             Shell.NavBarIsVisible="False">
+    <VerticalStackLayout Spacing="20" Padding="30" VerticalOptions="Center">
+
+        <Image Source="wellcome.png"
+               HeightRequest="150"
+               HorizontalOptions="Center" />
+
+        <Label Text="Olá, que bom ter você aqui!"
+               FontSize="18"
+               HorizontalOptions="Center" />
+
+        <Label x:Name="LblNome"
+               FontSize="32"
+               FontAttributes="Bold"
+               TextColor="#512BD4"
+               HorizontalOptions="Center" />
+
+        <Button Text="Sair do Aplicativo"
+                Clicked="OnSairClicked"
+                BackgroundColor="#512BD4"
+                TextColor="White"
+                Margin="0,30,0,0" />
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCompleta.RegisterPage"
+             Title="Cadastro"
+             BackgroundColor="#121212">
+
+    
+    <Grid RowDefinitions="*, Auto">
+
+        <!-- Conteúdo rolável -->
+        <ScrollView Grid.Row="0">
+            <StackLayout Padding="30" Spacing="30">
+
+                <Frame BackgroundColor="#1E1E1E"
+                       HasShadow="True"
+                       CornerRadius="25"
+                       Padding="0"
+                       Margin="0,10">
+
+                    <StackLayout Padding="30" Spacing="25">
+                        <!-- Título -->
+                        <Label Text="Criar Conta"
+                               FontSize="30"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               TextColor="#FFFFFF"/>
+
+                        <Label Text="Preencha os dados abaixo"
+                               FontSize="16"
+                               HorizontalOptions="Center"
+                               TextColor="#B0B0B0"
+                               Margin="0,0,0,10" />
+
+                        <!-- Primeira seção: Nome e Email -->
+                        <StackLayout Spacing="15">
+                            <Entry x:Name="EntryNome"
+                                   Placeholder="Nome completo"
+                                   FontSize="16"
+                                   BackgroundColor="#2C2C2C"
+                                   PlaceholderColor="#808080"
+                                   TextColor="#FFFFFF"
+                                   HeightRequest="50"
+                                   />
+
+                            <Entry x:Name="EntryEmail"
+                                   Placeholder="E-mail"
+                                   Keyboard="Email"
+                                   FontSize="16"
+                                   BackgroundColor="#2C2C2C"
+                                   PlaceholderColor="#808080"
+                                   TextColor="#FFFFFF"
+                                   HeightRequest="50"
+                                   />
+                        </StackLayout>
+
+
+                        <StackLayout Spacing="15">
+                            <Entry x:Name="EntryLogin"
+                                   Placeholder="Login"
+                                   FontSize="16"
+                                   BackgroundColor="#2C2C2C"
+                                   PlaceholderColor="#808080"
+                                   TextColor="#FFFFFF"
+                                   HeightRequest="50"
+                                   />
+
+                            <Entry x:Name="EntrySenha"
+                                   Placeholder="Senha"
+                                   IsPassword="True"
+                                   FontSize="16"
+                                   BackgroundColor="#2C2C2C"
+                                   PlaceholderColor="#808080"
+                                   TextColor="#FFFFFF"
+                                   HeightRequest="50"
+                                   />
+
+                            <Entry x:Name="EntryConfirmarSenha"
+                                   Placeholder="Confirmar Senha"
+                                   IsPassword="True"
+                                   FontSize="16"
+                                   BackgroundColor="#2C2C2C"
+                                   PlaceholderColor="#808080"
+                                   TextColor="#FFFFFF"
+                                   HeightRequest="50"
+                                   />
+                        </StackLayout>
+
+                        <!-- Botão Cadastrar -->
+                        <Button x:Name="BntCadastrar"
+                                Text="CADASTRAR"
+                                BackgroundColor="#1ABC9C"
+                                TextColor="White"
+                                FontSize="16"
+                                FontAttributes="Bold"
+                                HeightRequest="55"
+                                CornerRadius="25"
+                                Clicked="OnCadastrarClicked"/>
+
+                        <!-- Botão Voltar -->
+                        <Button x:Name="BtnVoltar"
+                                Text="Já tem conta? Faça login"
+                                BackgroundColor="Transparent"
+                                TextColor="#3B82F6"
+                                FontSize="14"
+                                Clicked="OnVoltarClicked"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+
+    </Grid>
+</ContentPage>
