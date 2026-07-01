@@ -111,7 +111,7 @@ AppCompletaAPI/appsettings.json
 ## Imagens do Sistema
 
 ### Tela de Cadastro
-![Tela de Cadastro](Screenshots/login.jpeg)
+![Tela de Cadastro](Screenshots/cadastro.jpeg)
 
 ### Tela de Login
 ![Tela de Login](Screenshots/login.jpeg)
