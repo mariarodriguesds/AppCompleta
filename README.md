@@ -136,6 +136,8 @@ AppCompletaAPI/appsettings.json
 
 Este projeto possui fins de estudo e demonstração.
 
+Todos os dados são fictícios.
+
 Para executar o aplicativo em um dispositivo Android físico durante o desenvolvimento, é necessário alterar a URL da API para o endereço IP da máquina onde a API estiver sendo executada.
 
 
