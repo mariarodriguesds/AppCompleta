@@ -60,9 +60,6 @@ Banco de Dados MySQL
 
 ## Meu Aprendizado
 
-
-## Meu Aprendizado
-
 Este projeto foi inicialmente desenvolvido utilizando SQLite como banco de dados local. Posteriormente, adaptei toda a aplicação para utilizar um banco de dados MySQL por meio de uma API ASP.NET Core.
 
 Durante esse processo pratiquei conceitos como:
@@ -114,13 +111,13 @@ AppCompletaAPI/appsettings.json
 ## Imagens do Sistema
 
 ### Tela de Cadastro
-![Tela de Cadastro](screenshots/login.jpeg)
+![Tela de Cadastro](Screenshots/login.jpeg)
 
 ### Tela de Login
-![Tela de Login](screenshots/login.jpeg)
+![Tela de Login](Screenshots/login.jpeg)
 
 ### Tela de Boas Vindas
-![Tela de Boas Vindas](screenshots/boas_vindas.jpeg)
+![Tela de Boas Vindas](Screenshots/boas_vindas.jpeg)
 
 
 ## Próximas Melhorias
